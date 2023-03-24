@@ -11,6 +11,39 @@ body {
   height: 100vh;
 }
 
+
+/* MENU-NAV */
+.menu .logo {
+  font-size: 25px;
+  line-height: 70px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.menu ul {
+  float: right;
+  margin-right: 10px;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 30px 15px;
+}
+
+.menu ul li a {
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  padding: 8px 6px;
+  text-decoration: none;
+  color: #2480a1;
+}
+
+.menu ul li a:hover {
+  color: #451bdf;
+  
+}
+
 .formulario {
   position: absolute;
   top: 50%;
